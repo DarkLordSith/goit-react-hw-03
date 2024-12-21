@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import styles from "./SearchBox.module.css";
 
 const SearchBox = ({ value, onChange }) => (
-  <label className={styles.label}>
+  <label className={styles.searchLabel}>
     Find contacts by name:
     <input
       type="text"

@@ -52,7 +52,6 @@ const App = () => {
     <div className="app">
       <h1>Phonebook</h1>
       <ContactForm onSubmit={addContact} />
-      <h2>Contacts</h2>
       <SearchBox value={filter} onChange={handleFilterChange} />
       <ContactList
         contacts={filteredContacts}
